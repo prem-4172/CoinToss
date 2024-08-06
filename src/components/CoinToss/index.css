@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  background-color: #f9d423;
+  background-size: cover;
+  justify-content: center;
+  align-content: center;
+}
+.sub-container {
+  height: 85vh;
+  width: 50vw;
+  background-color: #ffffff;
+  margin-left: 400px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: bold;
+  color: #a35200;
+}
+.image {
+  height: 250px;
+  width: 250px;
+}
+.para {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+.button-1 {
+  height: 30px;
+  width: 100px;
+  font-family: Roboto;
+  font-size: 10px;
+  color: #a35200;
+  background-color: #f9d423;
+  font-weight: bold;
+  border: transparent;
+  border-radius: 10px;
+}
+.head-tail {
+  display: flex;
+  flex-direction: row;
+}
+.tail {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #334155;
+  padding-right: 10px;
+}
